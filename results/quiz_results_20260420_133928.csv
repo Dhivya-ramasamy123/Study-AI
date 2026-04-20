@@ -1,0 +1,6 @@
+question_number,question,question_type,user_answer,correct_answer,is_correct,options
+1,What type of machine learning involves training a model on labeled data?,MCQ,Unsupervised Learning,Supervised Learning,False,"['Unsupervised Learning', 'Reinforcement Learning', 'Supervised Learning', 'Semi-supervised Learning']"
+2,What type of machine learning involves training a model on labeled data?,MCQ,Unsupervised Learning,Supervised Learning,False,"['Unsupervised Learning', 'Reinforcement Learning', 'Supervised Learning', 'Semi-supervised Learning']"
+3,"What type of machine learning involves training a model on labeled data to make predictions on new, unseen data?",MCQ,Unsupervised Learning,Supervised Learning,False,"['Unsupervised Learning', 'Reinforcement Learning', 'Supervised Learning', 'Semi-Supervised Learning']"
+4,What type of machine learning involves training a model on labeled data?,MCQ,Unsupervised Learning,Supervised Learning,False,"['Unsupervised Learning', 'Reinforcement Learning', 'Supervised Learning', 'Semi-supervised Learning']"
+5,"What type of machine learning involves training a model on labeled data to make predictions on new, unseen data?",MCQ,Unsupervised Learning,Supervised Learning,False,"['Unsupervised Learning', 'Reinforcement Learning', 'Supervised Learning', 'Semi-Supervised Learning']"
