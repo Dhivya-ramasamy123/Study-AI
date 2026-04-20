@@ -2,4 +2,4 @@
 venv/
 Study_Buddy.egg-info
 logs/
-results/
+*results/
