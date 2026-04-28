@@ -51,7 +51,8 @@ class QuizManager:
                 user_answer=st.radio(
                     f'Select and answer for question {i+1}',
                     q['options'],
-                    key=f'mcq_{i}'
+                    key=f'mcq_{i}',
+                    index=None
                 )
 
                 self.user_answers.append(user_answer)
