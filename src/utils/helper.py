@@ -36,7 +36,7 @@ class QuizManager:
                         {
                             'type':'Fill in the blank',
                             'question':question.question,
-                            'correct_answer':question.correct_answer    
+                            'answer':question.answer    
                         }
                     )
         except Exception as e:
@@ -79,7 +79,7 @@ class QuizManager:
                 result_dict['is_correct']=user_ans==q['correct_answer']
             else:
                 result_dict['options']=[]
-                result_dict['is_correct']=user_ans.strip().lower()==q['correct_answer'].strip().lower()
+                result_dict['is_correct']=user_ans.strip().lower()==q['answer'].strip().lower()
             self.results.append(result_dict)
 
     def generate_result_dataframe(self):
